@@ -1,22 +1,18 @@
-v<!DOCTYPE html>  
+<!DOCTYPE html>  
 <html lang="en">  
 <head>  
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>我的网站</title>  
-    <link rel="stylesheet" href="style.css">  
+    <title>作业2</title>  
+    <link rel="stylesheet" href="styles.css">  
 </head>  
 <body>  
-    <header>  
-        <h1>作业1</h1>  
-    </header>  
-    <section>  
-        <img src="image.jpg" alt="示例图片">  
-        <p>这是一个简单的网页，展示了HTML、CSS和JavaScript的使用。</p>  
-    </section>  
-    <footer>  
-        <p>版权所有 &copy; 20224130109</p>  
-    </footer>  
+    <div id="image-slider">  
+        <img src="images/img1.jpg" alt="图片1" id="current-image">  
+    </div>  
+    <button onclick="prevImage()">上一张</button>  
+    <button onclick="nextImage()">下一张</button>  
+  
     <script src="script.js"></script>  
 </body>  
 </html>
